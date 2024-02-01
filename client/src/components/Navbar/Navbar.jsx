@@ -18,18 +18,18 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
+            <Link className="link" to="/products/6">
+              READY TO WEAR
+            </Link>
+          </div>
+          <div className="item">
+            <Link className="link" to="/products/5">
+              NEW ARRIVALS
+            </Link>
+          </div>
+          <div className="item">
             <Link className="link" to="/products/1">
-              Women
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/2">
-              Men
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/3">
-              Children
+              TOPS
             </Link>
           </div>
         </div>
@@ -40,23 +40,18 @@ const Navbar = () => {
         </div>
         <div className="right">
           <div className="item">
-            <Link className="link" to="/">
-              Homepage
+            <Link className="link" to="/products/2">
+              BOTTOMS
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
-              About
+            <Link className="link" to="/products/3">
+              JEWELLERY
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
-              Contact
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/">
-              Stores
+            <Link className="link" to="/products/4">
+              BAG
             </Link>
           </div>
           <div className="icons">

@@ -49,6 +49,7 @@ const Products = () => {
             <span>0</span>
             <input
               type="range"
+              className="input-slider"
               min={0}
               max={1000}
               onChange={(e) => setMaxPrice(e.target.value)}
